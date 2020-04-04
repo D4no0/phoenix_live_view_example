@@ -15,6 +15,7 @@ defmodule DemoWeb.TestLive do
   end
 
   def handle_event("reset", _params, socket) do
+    IO.puts "reset"
     {:noreply, assign(socket, :text_input, "")}
   end
 end

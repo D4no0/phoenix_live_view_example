@@ -89,3 +89,7 @@ pre{
 form[phx-submit="load-more"] button {
   margin-bottom: 200px;
 }
+
+.test {
+  background-color: yellow;
+}
